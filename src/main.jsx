@@ -14,7 +14,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "IA-Humana/",
+    path: "/",
     element: (
       <>
         <App />
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "IA-Humana/end",
+    path: "/end",
     element: 
       <>
 	    <End />
