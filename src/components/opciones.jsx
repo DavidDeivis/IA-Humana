@@ -62,7 +62,7 @@ const opciones = () => {
 
 	return (
 		<>
-		<img ref={scrollElement} onError={(e => imgFailed(e))} onClick={scrollFunction} src="IA-Humana/downLinear.png" id="scrollAuto"></img>
+		<img ref={scrollElement} onError={(e => imgFailed(e))} onClick={scrollFunction} src="downLinear.png" id="scrollAuto"></img>
 
 		<div id="opciones" onClick={(e) => {!active ? activeOpciones(e.target) : true}}>
 			<form className="opciones-list">
