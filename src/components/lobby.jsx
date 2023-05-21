@@ -14,7 +14,7 @@ const lobby = () => {
 		setTimeout(()=>{
 			lobbyElement.current.style.display = "none";
 			setContinuar(true);
-			// document.getElementById("audio").play();
+			document.getElementById("audio").play();
 		}, 1000)
 	}
 
