@@ -61,18 +61,18 @@ const gameRun = () => {
 
 		let tiempo = 3000;
 
-		if(etapa == "low") tiempo = 65;
-		if(etapa == "half") tiempo = 65;
-		if(etapa == "hard") tiempo = 65;
+		if(etapa == "low") tiempo = 75;
+		if(etapa == "half") tiempo = 75;
+		if(etapa == "hard") tiempo = 75;
 
 		time.current.style.width = `${timeNum}%`;
 
 		setTimeout(()=>{
 
 			if(good) {
-				if(timeNum + 5 > 80) {
+				if(timeNum + 7 > 80) {
 					setTimeNum(80);
-				} else setTimeNum(timeNum + 5);
+				} else setTimeNum(timeNum + 7);
 				setGood(false);
 			}
 			else {
