@@ -70,9 +70,9 @@ const gameRun = () => {
 		setTimeout(()=>{
 
 			if(good) {
-				if(timeNum + 7 > 80) {
+				if(timeNum + 15 > 80) {
 					setTimeNum(80);
-				} else setTimeNum(timeNum + 7);
+				} else setTimeNum(timeNum + 15);
 				setGood(false);
 			}
 			else {
